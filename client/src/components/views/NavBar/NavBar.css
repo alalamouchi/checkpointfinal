@@ -1,0 +1,32 @@
+.nav-container {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.me-auto {
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-start; */
+    text-align: center;
+}
+@media only screen and (max-width: 984px) {
+    .me-auto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .blogs-nbre {
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .login {
+        position: relative;
+        left: 75%;
+    }
+}
+.blogs-nbre {
+    color: white;
+    margin-left: 10px;
+}
